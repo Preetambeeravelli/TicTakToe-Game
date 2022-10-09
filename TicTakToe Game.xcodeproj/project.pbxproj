@@ -17,6 +17,7 @@
 		0E115FDF28F1D7020055F12E /* TicTakToe_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E115FDE28F1D7020055F12E /* TicTakToe_GameTests.swift */; };
 		0E115FE928F1D7020055F12E /* TicTakToe_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E115FE828F1D7020055F12E /* TicTakToe_GameUITests.swift */; };
 		0E115FEB28F1D7020055F12E /* TicTakToe_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E115FEA28F1D7020055F12E /* TicTakToe_GameUITestsLaunchTests.swift */; };
+		0E115FF928F1DA4D0055F12E /* Barrio-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E115FF828F1DA4D0055F12E /* Barrio-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0E115FE428F1D7020055F12E /* TicTakToe GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TicTakToe GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E115FE828F1D7020055F12E /* TicTakToe_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTakToe_GameUITests.swift; sourceTree = "<group>"; };
 		0E115FEA28F1D7020055F12E /* TicTakToe_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTakToe_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E115FF828F1DA4D0055F12E /* Barrio-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barrio-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				0E115FCA28F1D7000055F12E /* Main.storyboard */,
 				0E115FD028F1D7020055F12E /* Assets.xcassets */,
 				0E115FD228F1D7020055F12E /* LaunchScreen.storyboard */,
+				0E115FF728F1DA0C0055F12E /* Fonts */,
 				0E115FD528F1D7020055F12E /* Info.plist */,
 				0E115FCD28F1D7000055F12E /* TicTakToe_Game.xcdatamodeld */,
 			);
@@ -128,6 +131,14 @@
 				0E115FEA28F1D7020055F12E /* TicTakToe_GameUITestsLaunchTests.swift */,
 			);
 			path = "TicTakToe GameUITests";
+			sourceTree = "<group>";
+		};
+		0E115FF728F1DA0C0055F12E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0E115FF828F1DA4D0055F12E /* Barrio-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E115FF928F1DA4D0055F12E /* Barrio-Regular.ttf in Resources */,
 				0E115FD428F1D7020055F12E /* LaunchScreen.storyboard in Resources */,
 				0E115FD128F1D7020055F12E /* Assets.xcassets in Resources */,
 				0E115FCC28F1D7000055F12E /* Main.storyboard in Resources */,
